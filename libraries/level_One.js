@@ -7,7 +7,7 @@ function levelOne() {
       enemy.addAnimation("enemy1Default",enemy1Default);
       enemy.setSpeed(5,90);
       enemy.life = 200;
-      enemy.shapeColor = 'red';
+      enemy.shapeColor = 'blue';
  
      // enemy.addImage(enemyOneImg);  
       enemies.add(enemy);
