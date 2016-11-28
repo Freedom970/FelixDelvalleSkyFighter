@@ -4,7 +4,7 @@ function levelTwo() {
  var enemy2Default = loadAnimation('assets/Enemy200000.png','assets/Enemy200024.png');
  
  if (frameCount%20=== 0){
-      var enemy = createSprite(random(width),0,20,40);
+      var enemy = createSprite(random(width),0,30,40);
       
       enemy.addAnimation("enemy2Default",enemy2Default);
       enemy.setSpeed(8,random(50,90));
